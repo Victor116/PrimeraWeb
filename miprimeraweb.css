@@ -1,0 +1,30 @@
+
+header{
+	background:url(78.jpg);
+	height: 100;
+	padding-top:1px;
+}
+.Centrar-Texto{
+	text-align: center;
+}
+.Izquierda-Texto{
+	text-align: left;
+}
+.Agrandar-Texto{
+	font-size: 4em;
+}
+.Engrandecer-Texto{
+	font-size: 2.2em;
+}
+.Color-Blanco{
+	color: #00CED1;
+}
+.Color-Rosado{
+	color: #FF00FF;
+}
+.inline{
+	display: inline;
+}
+.ocupa-mitad{
+	width: 50%;
+}
