@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>New Wordl</title>
+	<link rel="stylesheet" href="miprimeraweb.css">
+</head>
+<body>
+	<header>
+		<div class="Centrar-Texto">
+			<h1 class="Agrandar-Texto Color-Azulito">Un nuevo mundo nos espera, ¿Estaras preparado?</h1>
+
+			<div class="ocupa-mitad inline">
+				<img src="./IMG/cat.jpg"  height="190">
+				<p class="Engrandecer-Texto Color-Rosado Margen-Palabras Justificar-Texto">Considerarias que los gatos eran dioses en la antiguera, y por eso se implementaron estatuas con formas de gato, pero si es así, eran mitad gatos, mitad humanoides...</p>
+			</div>
+
+			<div class="ocupa-mitad inline">
+				<img src="./IMG/casa.jpg"  height="330">
+				<p class="Engrandecer-Texto Margen-Palabras Color-Azulito Justificar-Texto">Sabras realmente, de donde provenimos, los antiguos testamentos redactan desde tiempos muy muy lejanos, cuando el bigbag aparecio.</p>
+			</div>
+
+			<div class="Fondo-Puntos">
+				<img src="./IMG/hermoso.png"  height="336">
+				<p class="Color-Amarillo Engrandecer-Texto Justificar-Texto">Sera que la vida que vivimos diamente entre peliculas e historias que nos cuentan nuestros abuelos, eran verdaderas o solo seran simples "mitos". </p>
+			</div>
+			
+		</div>
+	</header>
+
+	<section class="Fondo-IMG">
+		<div class="ocupa-30 inline">
+			<img src="./IMG/estrellas.gif">
+		</div>
+
+		<div class="ocupa-70 inline">
+			<p class="Engrandecer-Texto Margen-Palabras Justificar-Texto Color-Verde">Seremos una razon de ser en este mundo, o es que somos muy indesafortunados y estamos solos... ¿Que decides creer?</p>
+		</div>
+		<a <span style="color:blue" href="http://www.history.com">Puedes visitar History Channel para mas informacion asciendo click aqui</span></a>
+	</section>
+	
+
+	<button onclick="playVid()" type="button">Play Audio</button>
+	<button onclick="pauseVid()" type="button">Pause Audio</button><br>
+	<audio id="myVideo">
+		 <source src="Seeya.mp3" type="audio/mp3">
+	</audio>	
+	<script>
+		function playVid() { 
+		    myVideo.play(); 
+		} 
+		function pauseVid() { 
+		    myVideo.pause(); 
+		} 
+	</script> 
+</body>
+</html>

@@ -1,6 +1,17 @@
-
 header{
-	background:url(78.jpg);
+	background:url(IMG/cercas.jpg);
+	width: 100%;
+	height: 100%;
+	padding-top:1px;
+}
+.Fondo-IMG{
+	background:url(IMG/galaxia.jpg);
+	width: 100%;
+	height: 100%;
+	padding-top:1px;
+}
+.Fondo-Puntos{
+	background:url(IMG/puntos.jpg);
 	width: 100%;
 	height: 100%;
 	padding-top:1px;
@@ -8,7 +19,8 @@ header{
 .Centrar-Texto{
 	text-align: center;
 }
-.Izquierda-Texto{	text-align: left;
+.Justificar-Texto{
+	text-align: justify;
 }
 .Agrandar-Texto{
 	font-size: 4em;
@@ -16,19 +28,34 @@ header{
 .Engrandecer-Texto{
 	font-size: 2.6em;
 }
-.Color-Blanco{
+.Crecer-Texto{
+	font-size: 3.7em;
+}
+.Color-Azulito{
 	color: #00CED1;
 }
 .Color-Rosado{
 	color: #CC0033;
 }
+.Color-Amarillo{
+	color: #FFFF00;
+}
+.Color-Verde{
+	color: #00FF00;
+}
 .inline{
-	display: inline;
+	display: inline-block;
+	margin-right: -4px;
+}
+.ocupa-30{
+	width: 30%;
+}
+.ocupa-70{
+	width: 70%;
 }
 .ocupa-mitad{
 	width: 50%;
 }
 .Margen-Palabras{
 	margin:20px;
-    padding:20px;
 }
