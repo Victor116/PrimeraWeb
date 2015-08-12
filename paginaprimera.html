@@ -8,20 +8,41 @@
 <body>
 	<header>
 		<div class="Centrar-Texto">
-			<h1 class="Agrandar-Texto Color-Blanco">Un nuevo mundo nos espera</h1>
+			<h1 class="Agrandar-Texto Color-Blanco">Un nuevo mundo nos espera, ¿Estaras preparado?</h1>
 			<img class="Izquierda-Texto" src="cat.jpg"  height="136">
-			<p class="Engrandecer-Texto Color-Rosado inline">Sera que los gatos eran dioses en la antiguera, y por eso se implementaron estatuas con formas de gato, pero si es así, eran mitad gatos, mitad humanoides</p>
-			<div>
+			<p class="Engrandecer-Texto Color-Rosado Margen-Palabras">Considerarias que los gatos eran dioses en la antiguera, y por eso se implementaron estatuas con formas de gato, pero si es así, eran mitad gatos, mitad humanoides...</p>
+			<div class="Color-Blanco">
 				<img src="casa.jpg"  height="236">
-				<div class="Color-Blanco Engrandecer-Texto ocupa-mitad">Sabras realmente, de donde provenimos</div>
-				<img class="Ocupa-mitas" src="hermoso.png"  height="336">
+				<div class="Color-Blanco Engrandecer-Texto ocupa-mitad Margen-Palabras">Sabras realmente, de donde provenimos</div>
+				<img class="Ocupa-mitad" src="hermoso.png"  height="336">
+
 			</div>
-			
 		</div>
 	</header>
 
 	<div>
-		<div class="Engrandecer-Texto">Seremos una razon de ser en este mundo, o es que somos muy indesafortunados y estamos solos... ¿Que decides creer?</div>	
+		<div class="Engrandecer-Texto Margen-Palabras">Seremos una razon de ser en este mundo, o es que somos muy indesafortunados y estamos solos... ¿Que decides creer?</div>	
+		<img src="estrellas.gif">
+		<a href="http://www.history.com" <span style="color:blue">Puedes visitar History Channel para mas informacion asciendo click aqui</span>></a>
+		<p class=""></p>
 	</div>
+
+	<button onclick="playVid()" type="button">Play Video</button>
+	<button onclick="pauseVid()" type="button">Pause Video</button><br>
+	<video id="myVideo">
+		 <source src="Seeya.mp3" type="audio/mp3">
+	</video>	
+
+	<script> 
+		var vid = document.getElementById("myVideo"); 
+
+		function playVid() { 
+		    myVideo.play(); 
+		} 
+
+		function pauseVid() { 
+		    myVideo.pause(); 
+		} 
+	</script> 
 </body>
 </html>
